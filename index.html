@@ -8,87 +8,82 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <div class="card">
-      <div class="expression">
-        <div class="number">
-          <p>60</p>
-          <p>+</p>
-          <p>20%</p>
+      <div id="expression"></div>
+      <div class="row">
+        <div class="items">
+          <button id="clr">AC</button>
+        </div>
+        <div class="items">
+          <button class="del">DEL</button>
+        </div>
+        <div class="items">
+          <button class="operator">%</button>
+        </div>
+        <div class="items">
+          <button class="operator">/</button>
         </div>
       </div>
       <div class="row">
         <div class="items">
-          <p>AC</p>
+          <button class="num">7</button>
         </div>
         <div class="items">
-          <p>DEL</p>
+          <button class="num">8</button>
         </div>
         <div class="items">
-          <p><i class="fa-regular fa-percent"></i></p>
+          <button class="num">9</button>
         </div>
         <div class="items">
-          <p><i class="fa-solid fa-divide"></i></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="items">
-            <p>7</p>
-        </div>
-        <div class="items">
-            <p>8</p>
-        </div>
-        <div class="items">
-            <p>9</p>
-        </div>
-        <div class="items">
-            <p><i class="fa-solid fa-xmark"></i></p>
+          <button class="operator">*</button>
         </div>
       </div>
       <div class="row">
         <div class="items">
-            <p>4</p>
+          <button class="num">4</button>
         </div>
         <div class="items">
-            <p>5</p>
+          <button class="num">5</button>
         </div>
         <div class="items">
-            <p>6</p>
+          <button class="num">6</button>
         </div>
         <div class="items">
-            <p><i class="fa-solid fa-minus"></i></p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="items">
-            <p>1</p>
-        </div>
-        <div class="items">
-            <p>2</p>
-        </div>
-        <div class="items">
-            <p>3</p>
-        </div>
-        <div class="items">
-            <p><i class="fa-solid fa-plus"></i></p>
+          <button class="operator">-</button>
         </div>
       </div>
       <div class="row">
         <div class="items">
-            <p>0</p>
+          <button class="num">1</button>
         </div>
         <div class="items">
-            <p>00</p>
+          <button class="num">2</button>
         </div>
         <div class="items">
-            <p>.</p>
+          <button class="num">3</button>
         </div>
         <div class="items">
-            <p><i class="fa-solid fa-equals"></i></p>
+          <button class="operator">+</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="items">
+          <button class="num">0</button>
+        </div>
+        <div class="items">
+          <button class="num">00</button>
+        </div>
+        <div class="items">
+          <button class="num">.</button>
+        </div>
+        <div class="items">
+          <button id="equal">=</button>
         </div>
       </div>
     </div>
+    <script src="calc.js"></script>
   </body>
 </html>
