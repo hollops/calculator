@@ -30,12 +30,28 @@ for (const op of opButtons) {
 equal.addEventListener("click", () => {
   if (operator === "*") {
     expression.textContent = Number(firstNumber) * Number(lastNumber);
+
+    firstNumber = "";
+    lastNumber = "";
+    operator = "";
   } else if (operator === "+") {
     expression.textContent = Number(firstNumber) + Number(lastNumber);
+
+    firstNumber = "";
+    lastNumber = "";
+    operator = "";
   } else if (operator === "-") {
     expression.textContent = Number(firstNumber) - Number(lastNumber);
+
+    firstNumber = "";
+    lastNumber = "";
+    operator = "";
   } else if (operator === "/") {
     expression.textContent = Number(firstNumber) / Number(lastNumber);
+
+    firstNumber = "";
+    lastNumber = "";
+    operator = "";
   }
 });
 
