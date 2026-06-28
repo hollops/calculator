@@ -57,7 +57,7 @@ While building this project, I gained hands-on experience with:
 
 1. Clone the repository.
 
-git clone https://github.com/your-username/calculator.git
+git clone https://github.com/hollops/calculator.git
 
 2. Navigate to the project folder.
 
